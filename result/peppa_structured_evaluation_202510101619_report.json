@@ -1,0 +1,2987 @@
+{
+  "evaluation_info": {
+    "timestamp": "2025-10-10T16:19:56.900874",
+    "models_evaluated": [
+      "qwen3-14B"
+    ],
+    "total_test_cases": 186
+  },
+  "results": [
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 1,
+      "context": "旁白：现在是晚上。佩奇要去佐伊斑马家过夜。",
+      "expected_response": "你好，佐伊。",
+      "prediction": "哦，太棒了！我要去佐伊家过夜啦！  \n跳泥坑最开心，不过晚上要睡觉咯！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.14634146341463414,
+        "edit_distance": 0.14634146341463414,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.041666666666666664,
+        "combined_score": 0.04806910569105691
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 4,
+      "context": "猪妈妈说：我明天早上来接你。再见，佩奇。",
+      "expected_response": "再见。",
+      "prediction": "再见，妈妈！我很快乐！  \n和佐伊一起跳泥坑吧！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.14814814814814814,
+        "edit_distance": 0.14814814814814814,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.058823529411764705,
+        "combined_score": 0.05032679738562092
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 6,
+      "context": "佩奇说：再见。\n旁白：丽贝卡、苏西和艾米丽已经到了。",
+      "expected_response": "大家好。",
+      "prediction": "你好，丽贝卡！你好，苏西！  \n艾米丽！我们去跳泥坑吧！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0625,
+        "edit_distance": 0.0625,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.018750000000000003
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 7,
+      "context": "佩奇说：大家好。",
+      "expected_response": "你好，佩奇。",
+      "prediction": "大家好！跳泥坑最棒了！  \n我最喜欢和你们一起玩！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.06451612903225806,
+        "edit_distance": 0.06451612903225806,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.01935483870967742
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 8,
+      "context": "佩奇的朋友们说：你好，佩奇。",
+      "expected_response": "我有我的泰迪玩具大家好。",
+      "prediction": "你好！跳泥坑吧！  \n我带了小猪饼干哦！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0625,
+        "edit_distance": 0.0625,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.05,
+        "combined_score": 0.023750000000000004
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 28,
+      "context": "佐伊说：但是过夜只适合大女孩。",
+      "expected_response": "它们又甜又小。",
+      "prediction": "我才不是小猪！我是大女孩佩奇！  \n跳泥坑最棒，我最会啦！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.05555555555555555,
+        "edit_distance": 0.05555555555555555,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.016666666666666666
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 32,
+      "context": "祖祖&扎扎说：我们保证。",
+      "expected_response": "哇，一架钢琴。我在上课听……闪烁的小星星，我可以试一试吗？",
+      "prediction": "你们保证？那我们一起跳泥坑！  \n我最会跳泥坑啦！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.07407407407407407,
+        "edit_distance": 0.07407407407407407,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.06896551724137931,
+        "combined_score": 0.029118773946360154
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 36,
+      "context": "斑马妈妈说：嘘，你一定要安静，所以斑马爸爸可以睡觉了。现在请放进你的睡袋里。",
+      "expected_response": "我们现在该怎么办？",
+      "prediction": "嘘！我安静睡觉啦！  \n晚安，大家！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.07407407407407407,
+        "edit_distance": 0.07407407407407407,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.022222222222222223
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 38,
+      "context": "苏西说：在睡懒觉的时候总是午夜的盛宴。",
+      "expected_response": "什么是午夜宴会？",
+      "prediction": "午夜盛宴？我最喜欢吃饼干！  \n跳泥坑比吃饭好玩多了！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.22857142857142856,
+        "edit_distance": 0.22857142857142856,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.09523809523809523,
+        "combined_score": 0.0780952380952381
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 44,
+      "context": "佐伊说：嘘，苏西，嘘佩奇。安静的……\n旁白：斑马妈妈醒了。",
+      "expected_response": "我们会有最好的午夜盛宴。",
+      "prediction": "嘘！我安静睡觉啦！  \n晚安，斑马妈妈！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0625,
+        "edit_distance": 0.0625,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.018750000000000003
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 46,
+      "context": "斑马妈妈说：发生什么事？你会吵醒斑马爸爸的。现在谁知道温柔的睡前故事。",
+      "expected_response": "我，还有我……",
+      "prediction": "我来讲故事！  \n小猪佩奇跳泥坑的故事！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.07407407407407407,
+        "edit_distance": 0.07407407407407407,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.07142857142857142,
+        "combined_score": 0.029365079365079365
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 53,
+      "context": "艾米丽说：嗯，我不太确定。",
+      "expected_response": "说什么都行，艾米丽。",
+      "prediction": "我来讲！跳泥坑最有趣！  \n大家都喜欢听我的故事！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.05714285714285714,
+        "edit_distance": 0.05714285714285714,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.017142857142857144
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 61,
+      "context": "丽贝卡说：还有一个可怕的怪物。",
+      "expected_response": "我们想知道接下来会发生什么。",
+      "prediction": "可怕的怪物？  \n我来打它！跳泥坑最勇敢！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.11428571428571428,
+        "edit_distance": 0.11428571428571428,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.03428571428571429
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 1,
+      "context": "旁白：现在是晚上。佩奇要去佐伊斑马家过夜。",
+      "expected_response": "你好，佐伊。",
+      "prediction": "哦，太棒了！我要去佐伊家过夜啦！  \n跳泥坑最开心，不过晚上要睡觉咯！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.14634146341463414,
+        "edit_distance": 0.14634146341463414,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.041666666666666664,
+        "combined_score": 0.04806910569105691
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 4,
+      "context": "猪妈妈说：我明天早上来接你。再见，佩奇。",
+      "expected_response": "再见。",
+      "prediction": "再见，妈妈！我很快乐！  \n和佐伊一起跳泥坑吧！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.14814814814814814,
+        "edit_distance": 0.14814814814814814,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.058823529411764705,
+        "combined_score": 0.05032679738562092
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 6,
+      "context": "佩奇说：再见。\n旁白：丽贝卡、苏西和艾米丽已经到了。",
+      "expected_response": "大家好。",
+      "prediction": "你好，丽贝卡！你好，苏西！  \n艾米丽！我们去跳泥坑吧！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0625,
+        "edit_distance": 0.0625,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.018750000000000003
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 7,
+      "context": "佩奇说：大家好。",
+      "expected_response": "你好，佩奇。",
+      "prediction": "大家好！跳泥坑最棒了！  \n我最喜欢和你们一起玩！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.06451612903225806,
+        "edit_distance": 0.06451612903225806,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.01935483870967742
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 8,
+      "context": "佩奇的朋友们说：你好，佩奇。",
+      "expected_response": "我有我的泰迪玩具大家好。",
+      "prediction": "你好！跳泥坑吧！  \n我带了小猪饼干哦！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0625,
+        "edit_distance": 0.0625,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.05,
+        "combined_score": 0.023750000000000004
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 28,
+      "context": "佐伊说：但是过夜只适合大女孩。",
+      "expected_response": "它们又甜又小。",
+      "prediction": "我才不是小猪！我是大女孩佩奇！  \n跳泥坑最棒，我最会啦！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.05555555555555555,
+        "edit_distance": 0.05555555555555555,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.016666666666666666
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 32,
+      "context": "祖祖&扎扎说：我们保证。",
+      "expected_response": "哇，一架钢琴。我在上课听……闪烁的小星星，我可以试一试吗？",
+      "prediction": "你们保证？那我们一起跳泥坑！  \n我最会跳泥坑啦！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.07407407407407407,
+        "edit_distance": 0.07407407407407407,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.06896551724137931,
+        "combined_score": 0.029118773946360154
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 36,
+      "context": "斑马妈妈说：嘘，你一定要安静，所以斑马爸爸可以睡觉了。现在请放进你的睡袋里。",
+      "expected_response": "我们现在该怎么办？",
+      "prediction": "嘘！我安静睡觉啦！  \n晚安，大家！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.07407407407407407,
+        "edit_distance": 0.07407407407407407,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.022222222222222223
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 38,
+      "context": "苏西说：在睡懒觉的时候总是午夜的盛宴。",
+      "expected_response": "什么是午夜宴会？",
+      "prediction": "午夜盛宴？我最喜欢吃饼干！  \n跳泥坑比吃饭好玩多了！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.22857142857142856,
+        "edit_distance": 0.22857142857142856,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.09523809523809523,
+        "combined_score": 0.0780952380952381
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 44,
+      "context": "佐伊说：嘘，苏西，嘘佩奇。安静的……\n旁白：斑马妈妈醒了。",
+      "expected_response": "我们会有最好的午夜盛宴。",
+      "prediction": "嘘！我安静睡觉啦！  \n晚安，斑马妈妈！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0625,
+        "edit_distance": 0.0625,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.018750000000000003
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 46,
+      "context": "斑马妈妈说：发生什么事？你会吵醒斑马爸爸的。现在谁知道温柔的睡前故事。",
+      "expected_response": "我，还有我……",
+      "prediction": "我来讲故事！  \n小猪佩奇跳泥坑的故事！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.07407407407407407,
+        "edit_distance": 0.07407407407407407,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.07142857142857142,
+        "combined_score": 0.029365079365079365
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 53,
+      "context": "艾米丽说：嗯，我不太确定。",
+      "expected_response": "说什么都行，艾米丽。",
+      "prediction": "我来讲！跳泥坑最有趣！  \n大家都喜欢听我的故事！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.05714285714285714,
+        "edit_distance": 0.05714285714285714,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.017142857142857144
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "51. 过夜",
+      "dialogue_index": 61,
+      "context": "丽贝卡说：还有一个可怕的怪物。",
+      "expected_response": "我们想知道接下来会发生什么。",
+      "prediction": "可怕的怪物？  \n我来打它！跳泥坑最勇敢！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.11428571428571428,
+        "edit_distance": 0.11428571428571428,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.03428571428571429
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "52. 寒冷的冬日",
+      "dialogue_index": 1,
+      "context": "旁白：今天很冷。佩奇和乔治戴着帽子围巾、外套、手套和靴子。",
+      "expected_response": "听着，乔治，树上没有叶子。",
+      "prediction": "好冷啊！我最喜欢冬天！  \n我们去跳泥坑吧？太棒了！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "52. 寒冷的冬日",
+      "dialogue_index": 3,
+      "context": "佩奇说：听着，乔治，树上没有叶子。\n旁白：在冬天，树木失去了叶子。佩奇和乔治发现了一个泥泞的水坑。佩奇和乔治喜欢在泥泞的水坑里上下翻腾。",
+      "expected_response": "我先来。",
+      "prediction": "哦！跳泥坑！太棒了！  \n乔治，快过来！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.08333333333333333,
+        "edit_distance": 0.08333333333333333,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.025
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "52. 寒冷的冬日",
+      "dialogue_index": 5,
+      "context": "佩奇说：我先来。\n旁白：太冷了，水坑变成了冰它很滑。",
+      "expected_response": "一点也不好笑。",
+      "prediction": "哎呀，滑倒了！  \n乔治，小心点！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.08333333333333333,
+        "edit_distance": 0.08333333333333333,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.025
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "52. 寒冷的冬日",
+      "dialogue_index": 9,
+      "context": "猪爸爸说：好，一个泥泞的水坑。\n旁白：猪爸爸喜欢跳在泥泞的水坑里。",
+      "expected_response": "别说了，爸爸。",
+      "prediction": "爸爸最棒了！  \n我也要跳！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.19047619047619047,
+        "edit_distance": 0.19047619047619047,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.15384615384615385,
+        "combined_score": 0.07252747252747253
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "52. 寒冷的冬日",
+      "dialogue_index": 11,
+      "context": "猪爸爸说：很接近。我真幸运良好的平衡感。",
+      "expected_response": "爸爸，今天水坑结冰了，我们可以。不要跳进去。",
+      "prediction": "爸爸平衡感超好！  \n我要像你一样！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.2,
+        "edit_distance": 0.2,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.05,
+        "combined_score": 0.06500000000000002
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "52. 寒冷的冬日",
+      "dialogue_index": 13,
+      "context": "猪妈妈说：不要介意。我们给鸭子喂点面包吧。",
+      "expected_response": "万岁！",
+      "prediction": "喂鸭子！太好玩了！  \n看，它们游过来啦！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.08333333333333333,
+        "edit_distance": 0.08333333333333333,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.07142857142857142,
+        "combined_score": 0.03214285714285715
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "52. 寒冷的冬日",
+      "dialogue_index": 15,
+      "context": "佩奇&乔治说：万岁！\n旁白：佩奇和乔治喜欢喂鸭子。",
+      "expected_response": "喂，鸭子们。我们有一些面包给你。",
+      "prediction": "鸭子吃面包！  \n万岁！太棒了！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.25,
+        "edit_distance": 0.25,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.11764705882352941,
+        "combined_score": 0.08676470588235295
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "52. 寒冷的冬日",
+      "dialogue_index": 17,
+      "context": "佩奇说：喂，鸭子们。我们有一些面包给你。\n旁白：鸭子喜欢面包。太冷了，池塘结冰了。冰很滑。",
+      "expected_response": "抱歉，我笑了，鸭子夫人。但看起来确实很有趣。",
+      "prediction": "鸭子，吃面包！  \n冰太滑啦！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.10810810810810811,
+        "edit_distance": 0.10810810810810811,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.1,
+        "combined_score": 0.042432432432432436
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "52. 寒冷的冬日",
+      "dialogue_index": 19,
+      "context": "佩奇说：抱歉，我笑了，鸭子夫人。但看起来确实很有趣。\n旁白：开始下雪了。",
+      "expected_response": "雪！",
+      "prediction": "下雪啦！太好玩了！  \n我们堆雪人吧！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.19047619047619047,
+        "edit_distance": 0.19047619047619047,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.08333333333333333,
+        "combined_score": 0.06547619047619048
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "52. 寒冷的冬日",
+      "dialogue_index": 21,
+      "context": "佩奇说：雪！\n旁白：佩奇和乔治喜欢雪。",
+      "expected_response": "乔治，我们去抓雪花吧。",
+      "prediction": "雪！太棒了！  \n跳泥坑！万岁！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.07407407407407407,
+        "edit_distance": 0.07407407407407407,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.022222222222222223
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "52. 寒冷的冬日",
+      "dialogue_index": 27,
+      "context": "苏西说：你好，佩奇。",
+      "expected_response": "哇。苏西，看起来很有趣。我们都在狂欢在大山上。那里有很多雪。",
+      "prediction": "苏西！你好呀！  \n我们一起玩吧！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.1702127659574468,
+        "edit_distance": 0.1702127659574468,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.08333333333333333,
+        "combined_score": 0.05939716312056738
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "52. 寒冷的冬日",
+      "dialogue_index": 29,
+      "context": "猪爸爸说：我们爬上那座大山好吗看电影吗？",
+      "expected_response": "是的，请。",
+      "prediction": "爬山看 movie！  \n爸爸带路！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "52. 寒冷的冬日",
+      "dialogue_index": 32,
+      "context": "佩奇说：是的，请。\n旁白：佩奇的朋友们正在组织在大山上。\n旁白：哦，亲爱的，乔治在山上滑倒了。",
+      "expected_response": "你看起来很有趣，乔治。",
+      "prediction": "乔治，小心点！  \n我扶你起来！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.2222222222222222,
+        "edit_distance": 0.2222222222222222,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.2,
+        "combined_score": 0.08666666666666667
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "52. 寒冷的冬日",
+      "dialogue_index": 35,
+      "context": "猪爸爸说：这很容易在山上滑倒。也许我该带乔治去。",
+      "expected_response": "爸爸，你也能抱着我吗？",
+      "prediction": "爸爸带乔治去！  \n我等你们回来！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.21428571428571427,
+        "edit_distance": 0.21428571428571427,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.10526315789473684,
+        "combined_score": 0.07481203007518797
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "52. 寒冷的冬日",
+      "dialogue_index": 41,
+      "context": "其他人说：是的！准备好了，稳住，走！？",
+      "expected_response": "我们……",
+      "prediction": "稳住！慢慢走！  \n别滑倒啦！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "52. 寒冷的冬日",
+      "dialogue_index": 45,
+      "context": "猪爸爸说：我不会滑倒的，哇……",
+      "expected_response": "爸爸就像个大斗牛士。",
+      "prediction": "爸爸小心！  \n我扶着你！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.17391304347826086,
+        "edit_distance": 0.17391304347826086,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.06666666666666667,
+        "combined_score": 0.05884057971014493
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "52. 寒冷的冬日",
+      "dialogue_index": 47,
+      "context": "孩子们说：呵呵……",
+      "expected_response": "我们将赢得这场比赛。",
+      "prediction": "呵呵！笑死啦！  \n爸爸滑倒了！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "52. 寒冷的冬日",
+      "dialogue_index": 50,
+      "context": "乔治说：万岁！\n旁白：佩奇和乔治是赢家。",
+      "expected_response": "干得好，佩奇。",
+      "prediction": "万岁！我们赢啦！  \n跳泥坑！太棒了！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "52. 寒冷的冬日",
+      "dialogue_index": 51,
+      "context": "佩奇的朋友们说：干得好，佩奇。",
+      "expected_response": "我爸爸做的很好的托博根。",
+      "prediction": "谢谢你们！  \n我们是最好朋友！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.14285714285714285,
+        "edit_distance": 0.14285714285714285,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.04285714285714286
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 2,
+      "context": "猪爸爸说：今天，除了见克洛伊，你们还要见见你们的新表弟。",
+      "expected_response": "哦！",
+      "prediction": "哦，天哪！新表弟？太棒了！  \n跳泥坑的时候他也能一起来吗？",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.125,
+        "edit_distance": 0.125,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.09523809523809523,
+        "combined_score": 0.04702380952380953
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 4,
+      "context": "佩奇&乔治说：哦！\n旁白：佩奇和她的家人到了克洛伊家。",
+      "expected_response": "你好！",
+      "prediction": "哇！克洛伊家好漂亮！  \n我们先去跳泥坑吗？",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.16,
+        "edit_distance": 0.16,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.07142857142857142,
+        "combined_score": 0.055142857142857146
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 8,
+      "context": "克洛伊说：你好，佩奇和乔治！\n旁白：这是克洛伊，佩奇和乔治的大表姐。",
+      "expected_response": "但我们的新表弟在哪儿？",
+      "prediction": "你好，克洛伊！  \n你也要和我们一起跳泥坑吗？",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.17647058823529413,
+        "edit_distance": 0.17647058823529413,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.09090909090909091,
+        "combined_score": 0.062032085561497335
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 10,
+      "context": "猪阿姨说：这是你们的新表弟！",
+      "expected_response": "哦！",
+      "prediction": "哇！新表弟！  \n他叫什么名字呀？",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.10526315789473684,
+        "edit_distance": 0.10526315789473684,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.07692307692307693,
+        "combined_score": 0.039271255060728746
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 14,
+      "context": "猪妈妈说：哦！多漂亮啊！",
+      "expected_response": "是个小女孩吗？",
+      "prediction": "他好可爱！  \n我要和他一起跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 16,
+      "context": "克洛伊说：不，是个男孩。",
+      "expected_response": "哦。我希望是个女孩。",
+      "prediction": "哦！是个男孩！  \n他叫什么名字呀？",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.2857142857142857,
+        "edit_distance": 0.2857142857142857,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.17647058823529413,
+        "combined_score": 0.10336134453781513
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 22,
+      "context": "猪妈妈说：我觉得宝宝太小了，不能玩恐龙。",
+      "expected_response": "乔治。宝宝不想和你玩。他想和我玩。",
+      "prediction": "那我们玩跳泥坑吧！  \n新表弟喜欢跳泥坑吗？",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.05128205128205128,
+        "edit_distance": 0.05128205128205128,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.043478260869565216,
+        "combined_score": 0.019732441471571906
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 25,
+      "context": "猪妈妈说：佩奇，宝宝太小了，不能玩球类游戏。",
+      "expected_response": "但如果他不能玩恐龙或球，他能做什么？",
+      "prediction": "那我们跳泥坑吧！  \n新表弟喜欢跳泥坑吗？",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.05128205128205128,
+        "edit_distance": 0.05128205128205128,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.041666666666666664,
+        "combined_score": 0.01955128205128205
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 29,
+      "context": "克洛伊说：他还会这个。",
+      "expected_response": "猪阿姨，我能抱抱宝宝吗？",
+      "prediction": "他会跳泥坑吗？  \n太棒了！我们一起玩！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.125,
+        "edit_distance": 0.125,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.1111111111111111,
+        "combined_score": 0.04861111111111112
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 31,
+      "context": "猪阿姨说：可以。如果你非常小心，你可以抱亚历山大。",
+      "expected_response": "亚历山大？",
+      "prediction": "我可以抱抱他吗？  \n我要小心一点！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.08695652173913043,
+        "edit_distance": 0.08695652173913043,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.07692307692307693,
+        "combined_score": 0.033779264214046825
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 34,
+      "context": "猪阿姨说：这是他的名字，小亚历山大。\n旁白：对这么小的一只小猪来说，名字真大。",
+      "expected_response": "虽然是个男孩，但名字很好听。",
+      "prediction": "小亚历山大！  \n他好可爱！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.07142857142857142,
+        "edit_distance": 0.07142857142857142,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.02142857142857143
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 36,
+      "context": "亚历山大说：咕咕咕。",
+      "expected_response": "哦。那是什么味道？",
+      "prediction": "咕咕咕！  \n你好，小亚历山大！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 38,
+      "context": "猪阿姨说：也许亚历山大的尿布需要换了。",
+      "expected_response": "呃！真恶心！",
+      "prediction": "我要帮忙吗？  \n我可以帮忙换尿布！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.08333333333333333,
+        "edit_distance": 0.08333333333333333,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.07692307692307693,
+        "combined_score": 0.032692307692307694
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 40,
+      "context": "猪爸爸说：佩奇，你小时候也穿尿布。",
+      "expected_response": "我没有。",
+      "prediction": "我小时候也穿尿布！  \n现在我可厉害了，会跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.06896551724137931,
+        "edit_distance": 0.06896551724137931,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.05555555555555555,
+        "combined_score": 0.02624521072796935
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 43,
+      "context": "猪阿姨说：可以。",
+      "expected_response": "克洛伊，有个小弟弟感觉好吗？",
+      "prediction": "我要帮忙换尿布！  \n我最拿手的就是这个！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.05714285714285714,
+        "edit_distance": 0.05714285714285714,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.017142857142857144
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 45,
+      "context": "克洛伊说：好。亚历山大很可爱。",
+      "expected_response": "我希望乔治是个可爱的小猪宝宝。",
+      "prediction": "小亚历山大真可爱！  \n我要和他一起跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.10810810810810811,
+        "edit_distance": 0.10810810810810811,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.045454545454545456,
+        "combined_score": 0.03697788697788698
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 47,
+      "context": "克洛伊说：我知道！乔治可以假装是小猪宝宝。他可以坐我的洋娃娃婴儿车。",
+      "expected_response": "好主意！",
+      "prediction": "乔治当宝宝！  \n我推婴儿车！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.10526315789473684,
+        "edit_distance": 0.10526315789473684,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.09090909090909091,
+        "combined_score": 0.04066985645933015
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 50,
+      "context": "乔治说：不！\n旁白：乔治不想当宝宝。",
+      "expected_response": "乔治。如果你假装是宝宝，我保证永远对你好。",
+      "prediction": "乔治不想当宝宝！  \n那我们玩别的游戏吧！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.23809523809523808,
+        "edit_distance": 0.23809523809523808,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.08695652173913043,
+        "combined_score": 0.08012422360248447
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 54,
+      "context": "克洛伊说：你还可以玩我所有的玩具。\n旁白：乔治想得更多了。",
+      "expected_response": "等我们回家后，你也可以玩我所有的玩具。",
+      "prediction": "我的玩具！  \n太棒了！我要玩！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.22857142857142856,
+        "edit_distance": 0.22857142857142856,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.21052631578947367,
+        "combined_score": 0.08962406015037594
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 59,
+      "context": "克洛伊说：多可爱的小猪宝宝啊。\n旁白：这是糖果猫、苏西羊、丽贝卡兔和佐伊斑马。",
+      "expected_response": "你好！",
+      "prediction": "小猪宝宝真可爱！  \n我要和他们一起玩！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.08695652173913043,
+        "edit_distance": 0.08695652173913043,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.07692307692307693,
+        "combined_score": 0.033779264214046825
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 61,
+      "context": "苏西说：乔治为什么在那个洋娃娃婴儿车里？",
+      "expected_response": "那不是乔治。那是一只小猪宝宝。",
+      "prediction": "乔治当宝宝！  \n他喜欢坐婴儿车！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.25,
+        "edit_distance": 0.25,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.125,
+        "combined_score": 0.08750000000000001
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 65,
+      "context": "克洛伊说：乔治是一只假装的小猪宝宝。",
+      "expected_response": "啊！",
+      "prediction": "乔治假装是宝宝！  \n他可喜欢坐婴儿车啦！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.08695652173913043,
+        "edit_distance": 0.08695652173913043,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.07142857142857142,
+        "combined_score": 0.03322981366459628
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 70,
+      "context": "乔治说：不！\n旁白：乔治不想当女孩宝宝。",
+      "expected_response": "好吧。是个男孩。",
+      "prediction": "乔治不想当女孩宝宝！  \n那我们玩别的游戏吧！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.06451612903225806,
+        "edit_distance": 0.06451612903225806,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.01935483870967742
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 72,
+      "context": "苏西说：我有些饼干。小猪宝宝想要一块吗？",
+      "expected_response": "哦，不。他不能吃饼干。",
+      "prediction": "小猪宝宝要饼干！  \n我要吃一块！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.14285714285714285,
+        "edit_distance": 0.14285714285714285,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.125,
+        "combined_score": 0.055357142857142855
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "31. 小猪宝宝",
+      "dialogue_index": 85,
+      "context": "苏西说：哇！一只真正的、真正的小猪宝宝！",
+      "expected_response": "太可爱了！",
+      "prediction": "小猪宝宝真可爱！  \n我要和他一起玩！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.25,
+        "edit_distance": 0.25,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.14285714285714285,
+        "combined_score": 0.0892857142857143
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "02. 埃米莉大象",
+      "dialogue_index": 9,
+      "context": "瞪羚夫人说：我们只需要一个。“佩奇，你能给艾米丽看看吗？”她的外套挂在哪里？",
+      "expected_response": "“是的，瞪羚夫人。”我们每个人都有自己的衣钩。“这是给你的，艾米丽。”",
+      "prediction": "哦，天哪！我帮她找！  \n跳泥坑最棒了！你想试试吗？",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.09836065573770492,
+        "edit_distance": 0.09836065573770492,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.05405405405405406,
+        "combined_score": 0.03491360212671688
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "02. 埃米莉大象",
+      "dialogue_index": 17,
+      "context": "瞪羚夫人说：天哪！积木今天很流行！\n旁白：每个人都想坐埃米莉大象旁边。",
+      "expected_response": "“艾米丽，你挡了一个街区”在另一个上面。这样地。",
+      "prediction": "大象坐垫太舒服了！  \n跳泥坑比坐垫好玩多了！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0425531914893617,
+        "edit_distance": 0.0425531914893617,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.037037037037037035,
+        "combined_score": 0.016469661150512217
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "02. 埃米莉大象",
+      "dialogue_index": 30,
+      "context": "瞪羚夫人说：有人能给艾米丽看一下吗我们在哪里玩？",
+      "expected_response": "“是的，瞪羚夫人。”",
+      "prediction": "跳泥坑！太棒了！  \n我们一起玩吧！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "02. 埃米莉大象",
+      "dialogue_index": 34,
+      "context": "佩德罗说：抓不到我！\n旁白：太吵了！",
+      "expected_response": "让我们看看谁最大声！",
+      "prediction": "我来帮你抓！  \n跳泥坑更有趣！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.15384615384615385,
+        "edit_distance": 0.15384615384615385,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.058823529411764705,
+        "combined_score": 0.05203619909502263
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "02. 埃米莉大象",
+      "dialogue_index": 45,
+      "context": "佩德罗说：轮到我了！呜呜！",
+      "expected_response": "轮到我了！史努特！！！！！",
+      "prediction": "轮到我啦！  \n跳泥坑最公平！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.35714285714285715,
+        "edit_distance": 0.35714285714285715,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.25,
+        "combined_score": 0.13214285714285715
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "02. 埃米莉大象",
+      "dialogue_index": 53,
+      "context": "其他人说：真的！",
+      "expected_response": "再来一次！",
+      "prediction": "跳泥坑最公平！  \n我先跳！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.10526315789473684,
+        "edit_distance": 0.10526315789473684,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.08333333333333333,
+        "combined_score": 0.039912280701754385
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "02. 埃米莉大象",
+      "dialogue_index": 56,
+      "context": "艾米丽说：哎呀！\n旁白：艾米丽不再害羞了。",
+      "expected_response": "“艾米丽，你想玩吗？”我最喜欢的游戏？",
+      "prediction": "别怕！我陪你玩！  \n跳泥坑最开心！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.16216216216216217,
+        "edit_distance": 0.16216216216216217,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.09090909090909091,
+        "combined_score": 0.057739557739557745
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "02. 埃米莉大象",
+      "dialogue_index": 58,
+      "context": "艾米丽说：你最喜欢的游戏是什么？",
+      "expected_response": "在泥泞的水坑里跳！",
+      "prediction": "跳泥坑！太棒了！  \n你也来玩吧！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.23076923076923078,
+        "edit_distance": 0.23076923076923078,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.13333333333333333,
+        "combined_score": 0.08256410256410257
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "02. 埃米莉大象",
+      "dialogue_index": 68,
+      "context": "艾米丽说：对！",
+      "expected_response": "埃米莉大象是我的朋友！",
+      "prediction": "跳泥坑！万岁！  \n我们一起来！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.14814814814814814,
+        "edit_distance": 0.14814814814814814,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0625,
+        "combined_score": 0.050694444444444445
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "02. 埃米莉大象",
+      "dialogue_index": 75,
+      "context": "丽贝卡说：还有我的！还有我的！还有我的！",
+      "expected_response": "“艾米丽，你最喜欢谁？”",
+      "prediction": "一起跳泥坑！  \n大家都来！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "45. 学校露营",
+      "dialogue_index": 8,
+      "context": "佐伊说：我以后可能会觉得不舒服。我能坐在前面以防万一吗？",
+      "expected_response": "我也可以坐在前面吗？",
+      "prediction": "当然可以！你坐前面吧！  \n我坐后面，这样最安全！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.2857142857142857,
+        "edit_distance": 0.2857142857142857,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.15789473684210525,
+        "combined_score": 0.10150375939849623
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "45. 学校露营",
+      "dialogue_index": 20,
+      "context": "瞪羚夫人说：孩子们，你们每个人都必须找到一个伙伴分享你的帐篷。",
+      "expected_response": "苏西，我们一起搭帐篷好吗？",
+      "prediction": "我和苏茜一起！  \n我们是最好的朋友！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.25,
+        "edit_distance": 0.25,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.1111111111111111,
+        "combined_score": 0.08611111111111112
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "45. 学校露营",
+      "dialogue_index": 28,
+      "context": "佐伊说：好啊！",
+      "expected_response": "很好，现在你可以和我分享了。",
+      "prediction": "我们一起去跳泥坑吧！  \n太棒了，万岁！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.058823529411764705,
+        "edit_distance": 0.058823529411764705,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.045454545454545456,
+        "combined_score": 0.02219251336898396
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "45. 学校露营",
+      "dialogue_index": 48,
+      "context": "孩子们说：晚安，瞪羚夫人。\n旁白：佩奇和苏西在他们的睡袋里。",
+      "expected_response": "我有手电筒。",
+      "prediction": "晚安，苏茜！  \n做个好梦！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "45. 学校露营",
+      "dialogue_index": 52,
+      "context": "苏西说：那奇怪的声音是什么？",
+      "expected_response": "我不知道。又来了。苏西，你要去哪儿？",
+      "prediction": "可能是乔治在打呼噜！  \n他总是这样，别担心！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.04878048780487805,
+        "edit_distance": 0.04878048780487805,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.037037037037037035,
+        "combined_score": 0.018337850045167123
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "45. 学校露营",
+      "dialogue_index": 56,
+      "context": "苏西说：是的，请。",
+      "expected_response": "瞪羚夫人，我想我也有点害怕。我能进来吗？",
+      "prediction": "我们来跳泥坑吧！  \n太好玩了，万岁！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.05128205128205128,
+        "edit_distance": 0.05128205128205128,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.04,
+        "combined_score": 0.019384615384615386
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "45. 学校露营",
+      "dialogue_index": 62,
+      "context": "瞪羚夫人说：大家进来。",
+      "expected_response": "请给我们唱一首冰糖歌好吗？",
+      "prediction": "我来啦，瞪羚夫人！  \n苏茜，快进来！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0625,
+        "edit_distance": 0.0625,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.018750000000000003
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "34. 滑冰",
+      "dialogue_index": 1,
+      "context": "旁白：佩奇和她的家人今天要去滑冰。",
+      "expected_response": "这会很有趣。",
+      "prediction": "太棒了！我要穿我的红色冰鞋！  \n跳泥坑比滑冰好玩多了，不过我还是想去！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "34. 滑冰",
+      "dialogue_index": 3,
+      "context": "佩奇说：这会很有趣。\n旁白：佩奇和乔治以前从未滑过冰。",
+      "expected_response": "现在乔治，你不会很擅长滑冰，所以就照我做的做。",
+      "prediction": "我教乔治滑冰！  \n跳泥坑比滑冰好玩多了，不过我还是想去！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.23076923076923078,
+        "edit_distance": 0.23076923076923078,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.14285714285714285,
+        "combined_score": 0.08351648351648353
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "34. 滑冰",
+      "dialogue_index": 5,
+      "context": "猪爸爸说：我相信我们都会很好的。",
+      "expected_response": "是的。尤其是我。",
+      "prediction": "爸爸最棒了！  \n我要跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.08695652173913043,
+        "edit_distance": 0.08695652173913043,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.026086956521739132
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "34. 滑冰",
+      "dialogue_index": 12,
+      "context": "兔子小姐说：给你。",
+      "expected_response": "谢谢。",
+      "prediction": "谢谢兔子小姐！  \n跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.23529411764705882,
+        "edit_distance": 0.23529411764705882,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.1111111111111111,
+        "combined_score": 0.08169934640522876
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "34. 滑冰",
+      "dialogue_index": 16,
+      "context": "兔子小姐说：滑冰愉快。\n旁白：这是苏西羊、丽贝卡兔、丹尼狗、佐伊斑马、糖果猫、埃米莉大象和佩德罗小马。\n旁白：佩奇的朋友们滑冰滑得很好。",
+      "expected_response": "大家好。",
+      "prediction": "他们滑得好棒！  \n我要跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.1,
+        "edit_distance": 0.1,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.08333333333333333,
+        "combined_score": 0.03833333333333334
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "34. 滑冰",
+      "dialogue_index": 17,
+      "context": "佩奇说：大家好。",
+      "expected_response": "你好，佩奇。",
+      "prediction": "大家好！  \n跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.11764705882352941,
+        "edit_distance": 0.11764705882352941,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.03529411764705882
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "34. 滑冰",
+      "dialogue_index": 19,
+      "context": "苏西说：这是你第一次滑冰吗？",
+      "expected_response": "是的。",
+      "prediction": "是的！  \n跳泥坑比滑冰好玩多了！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.2,
+        "edit_distance": 0.2,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.15384615384615385,
+        "combined_score": 0.0753846153846154
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "34. 滑冰",
+      "dialogue_index": 21,
+      "context": "苏西说：我教你滑冰好吗？",
+      "expected_response": "不，谢谢你，苏西，我相信我已经会了。",
+      "prediction": "好呀！  \n跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "34. 滑冰",
+      "dialogue_index": 23,
+      "context": "苏西说：好吧，那就来吧。",
+      "expected_response": "这不可能。我不想再滑冰了。",
+      "prediction": "我准备好了！  \n跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.15384615384615385,
+        "edit_distance": 0.15384615384615385,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.125,
+        "combined_score": 0.058653846153846154
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "34. 滑冰",
+      "dialogue_index": 25,
+      "context": "猪爸爸说：别担心，佩奇。每个人滑冰都会摔倒。就连我也会摔倒。看这个，哎呀！",
+      "expected_response": "傻爸爸。",
+      "prediction": "爸爸摔倒了！  \n跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.23529411764705882,
+        "edit_distance": 0.23529411764705882,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.1,
+        "combined_score": 0.08058823529411765
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "34. 滑冰",
+      "dialogue_index": 31,
+      "context": "猪妈妈说：滑冰很容易，佩奇。只要用脚推然后滑行。推，推，滑行。看到了吗？",
+      "expected_response": "推，推，滑行。推，推，滑行。这很容易，我现在可以自己滑了，妈妈。推，推，滑行。推，推，滑行。",
+      "prediction": "推，推，滑行！  \n跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.2,
+        "edit_distance": 0.2,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.15789473684210525,
+        "combined_score": 0.07578947368421055
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "34. 滑冰",
+      "dialogue_index": 33,
+      "context": "猪爸爸说：干得好，佩奇。",
+      "expected_response": "看我，我在滑冰。",
+      "prediction": "太棒了！  \n跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "34. 滑冰",
+      "dialogue_index": 36,
+      "context": "猪妈妈说：是的，我是个很好的老师。慢点，佩奇。你会撞到别人的。",
+      "expected_response": "别担心，妈妈，我滑冰很棒。哦，刹车在哪儿？",
+      "prediction": "慢点滑！  \n跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0625,
+        "edit_distance": 0.0625,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.018750000000000003
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "34. 滑冰",
+      "dialogue_index": 39,
+      "context": "猪爸爸说：哦。",
+      "expected_response": "啊，我停不下来了。小心！",
+      "prediction": "爸爸怎么了？  \n跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.16,
+        "edit_distance": 0.16,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.13333333333333333,
+        "combined_score": 0.06133333333333334
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "34. 滑冰",
+      "dialogue_index": 41,
+      "context": "猪爸爸说：猪妈妈教你滑冰，但我教你摔倒。",
+      "expected_response": "是的，我非常擅长摔倒。",
+      "prediction": "爸爸最棒了！  \n跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "34. 滑冰",
+      "dialogue_index": 42,
+      "context": "佩奇说：是的，我非常擅长摔倒。",
+      "expected_response": "乔治，你也想滑冰吗？",
+      "prediction": "我摔得可好了！  \n跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "34. 滑冰",
+      "dialogue_index": 44,
+      "context": "乔治说：不。",
+      "expected_response": "来吧，乔治。很有趣。我来教你。首先，你需要……",
+      "prediction": "乔治别怕！  \n跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.11428571428571428,
+        "edit_distance": 0.11428571428571428,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.05263157894736842,
+        "combined_score": 0.03954887218045113
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "34. 滑冰",
+      "dialogue_index": 46,
+      "context": "乔治说：哇……",
+      "expected_response": "乔治，回来，我在教你滑冰。",
+      "prediction": "乔治别怕！  \n跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.16,
+        "edit_distance": 0.16,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.06666666666666667,
+        "combined_score": 0.05466666666666667
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "34. 滑冰",
+      "dialogue_index": 49,
+      "context": "苏西说：哇，看乔治。",
+      "expected_response": "很好，乔治。现在你需要学怎么停下来。",
+      "prediction": "乔治滑得好棒！  \n跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.125,
+        "edit_distance": 0.125,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.1111111111111111,
+        "combined_score": 0.04861111111111112
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "34. 滑冰",
+      "dialogue_index": 52,
+      "context": "猪爸爸说：你太棒了，乔治！",
+      "expected_response": "是的，你做得很好，乔治，这是你的第一课。",
+      "prediction": "乔治最棒了！  \n跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.12121212121212122,
+        "edit_distance": 0.12121212121212122,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.05263157894736842,
+        "combined_score": 0.04162679425837321
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "34. 滑冰",
+      "dialogue_index": 54,
+      "context": "猪妈妈说：来吧，我们滑冰吧。",
+      "expected_response": "好的。",
+      "prediction": "滑冰太好玩了！  \n跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.11764705882352941,
+        "edit_distance": 0.11764705882352941,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.03529411764705882
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "34. 滑冰",
+      "dialogue_index": 56,
+      "context": "佩奇一家说：好的。\n旁白：佩奇和乔治喜欢滑冰。",
+      "expected_response": "妈妈和爸爸教我滑冰，但我教乔治。",
+      "prediction": "滑冰真开心！  \n跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.13793103448275862,
+        "edit_distance": 0.13793103448275862,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.058823529411764705,
+        "combined_score": 0.047261663286004056
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "35. 牙医",
+      "dialogue_index": 2,
+      "context": "猪妈妈说：佩奇，乔治，你们准备好去做检查了吗？",
+      "expected_response": "我太忙了，没时间检查。我正在和泰迪开茶话会。是的，我们很忙。",
+      "prediction": "太棒了！我要跳泥坑！  \n乔治，我们快点去吧！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.1509433962264151,
+        "edit_distance": 0.1509433962264151,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.07142857142857142,
+        "combined_score": 0.05242587601078168
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "35. 牙医",
+      "dialogue_index": 4,
+      "context": "猪爸爸说：我们都需要检查，以确保我们的牙齿干净健康。",
+      "expected_response": "好吧，爸爸。乔治，你的牙齿和我的一样干净吗？",
+      "prediction": "我最喜欢刷牙了！  \n牙齿白白的最棒啦！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.14285714285714285,
+        "edit_distance": 0.14285714285714285,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.08,
+        "combined_score": 0.05085714285714286
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "35. 牙医",
+      "dialogue_index": 8,
+      "context": "猪爸爸说：你们两个都有漂亮的干净牙齿。我相信牙医会很高兴的。\n旁白：佩奇和乔治在牙医诊所等待检查。",
+      "expected_response": "啊，等待很无聊。",
+      "prediction": "我要和乔治一起玩！  \n跳泥坑最开心啦！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "35. 牙医",
+      "dialogue_index": 11,
+      "context": "兔子小姐说：佩奇，乔治，牙医现在要见你们了。",
+      "expected_response": "万岁！",
+      "prediction": "万岁！我要去看牙医！  \n乔治，我们快点进去吧！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.2222222222222222,
+        "edit_distance": 0.2222222222222222,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.14285714285714285,
+        "combined_score": 0.08095238095238096
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "35. 牙医",
+      "dialogue_index": 14,
+      "context": "大象医生说：你好，佩奇，你刷牙了吗？",
+      "expected_response": "是的，大象医生。",
+      "prediction": "我每天都会刷牙！  \n牙齿白白的最棒啦！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.07142857142857142,
+        "edit_distance": 0.07142857142857142,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.02142857142857143
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "35. 牙医",
+      "dialogue_index": 16,
+      "context": "大象医生说：很好。现在，谁先来？",
+      "expected_response": "我先来，因为我是大女孩。看着我，乔治。",
+      "prediction": "我先来！乔治等我一下！  \n我要做个勇敢的小猪！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.23255813953488372,
+        "edit_distance": 0.23255813953488372,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.15,
+        "combined_score": 0.08476744186046511
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "35. 牙医",
+      "dialogue_index": 18,
+      "context": "大象医生说：请坐到椅子上。抓紧。",
+      "expected_response": "哇……",
+      "prediction": "我坐好啦！不害怕！  \n乔治，你也要勇敢哦！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "35. 牙医",
+      "dialogue_index": 20,
+      "context": "大象医生说：请张大嘴。",
+      "expected_response": "啊……",
+      "prediction": "啊——张大嘴巴！  \n牙齿检查万岁！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.09523809523809523,
+        "edit_distance": 0.09523809523809523,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.1,
+        "combined_score": 0.038571428571428576
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "35. 牙医",
+      "dialogue_index": 22,
+      "context": "大象医生说：再张大点。",
+      "expected_response": "啊……",
+      "prediction": "啊——嘴巴张得更大！  \n我要做个好孩子！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.08333333333333333,
+        "edit_distance": 0.08333333333333333,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.07692307692307693,
+        "combined_score": 0.032692307692307694
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "35. 牙医",
+      "dialogue_index": 28,
+      "context": "猪爸爸说：她像我。",
+      "expected_response": "我现在可以喝这种特别的粉红色饮料了吗？",
+      "prediction": "爸爸最棒啦！  \n我最喜欢你！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.058823529411764705,
+        "edit_distance": 0.058823529411764705,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.047619047619047616,
+        "combined_score": 0.022408963585434174
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "35. 牙医",
+      "dialogue_index": 30,
+      "context": "大象医生说：可以，但不要喝，佩奇。吐出来。",
+      "expected_response": "乔治，现在轮到你了。",
+      "prediction": "我吐出来啦！  \n牙齿检查太棒了！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.07407407407407407,
+        "edit_distance": 0.07407407407407407,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.022222222222222223
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "35. 牙医",
+      "dialogue_index": 36,
+      "context": "大象医生说：很高兴见到你，恐龙先生。",
+      "expected_response": "它不是真的恐龙。它是塑料做的。",
+      "prediction": "恐龙先生你好！  \n我是佩奇，最喜欢跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.16216216216216217,
+        "edit_distance": 0.16216216216216217,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.09523809523809523,
+        "combined_score": 0.058172458172458176
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "35. 牙医",
+      "dialogue_index": 39,
+      "context": "大象医生说：抓紧。你做得很好，乔治。现在你能给我看看你的牙齿吗？\n旁白：乔治不想让牙医看他的牙齿。",
+      "expected_response": "乔治，张大嘴，像这样。啊……啊……",
+      "prediction": "乔治，别害怕！  \n我陪你一起看牙齿！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.16666666666666666,
+        "edit_distance": 0.16666666666666666,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.10526315789473684,
+        "combined_score": 0.060526315789473685
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "35. 牙医",
+      "dialogue_index": 45,
+      "context": "大象医生说：是的。\n旁白：乔治为有干净的牙齿感到非常自豪。",
+      "expected_response": "乔治，别忘了粉红色的饮料。",
+      "prediction": "乔治最棒啦！  \n牙齿白白的真开心！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.1935483870967742,
+        "edit_distance": 0.1935483870967742,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0625,
+        "combined_score": 0.06431451612903226
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "35. 牙医",
+      "dialogue_index": 49,
+      "context": "大象医生说：乔治的牙齿很干净，但这个小恐龙的牙齿很脏。",
+      "expected_response": "哦，不。大象医生对恐龙先生很生气。",
+      "prediction": "小恐龙要刷牙！  \n牙齿白白的最棒啦！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.1111111111111111,
+        "edit_distance": 0.1111111111111111,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.047619047619047616,
+        "combined_score": 0.0380952380952381
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "35. 牙医",
+      "dialogue_index": 58,
+      "context": "乔治说：咕噜！恐龙。",
+      "expected_response": "太可怕了。",
+      "prediction": "小恐龙你好！  \n我们一起刷牙吧！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 1,
+      "context": "旁白：今天作为特别款待，佩奇和乔治要去参观猪爸爸的办公室。",
+      "expected_response": "爸爸，你整天在办公室做什么？",
+      "prediction": "太棒了！我要和爸爸一起工作！  \n跳泥坑比上班好玩多了！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.09523809523809523,
+        "edit_distance": 0.09523809523809523,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.041666666666666664,
+        "combined_score": 0.03273809523809524
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 5,
+      "context": "猪爸爸说：我们到了。",
+      "expected_response": "万岁！",
+      "prediction": "爸爸的办公室真漂亮！  \n我要和爸爸一起工作！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.07692307692307693,
+        "edit_distance": 0.07692307692307693,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.07692307692307693,
+        "combined_score": 0.03076923076923077
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 9,
+      "context": "女士说：你好，猪爸爸。",
+      "expected_response": "我能按一下按钮吗？",
+      "prediction": "你好！我是佩奇！  \n我要和爸爸一起工作！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.13333333333333333,
+        "edit_distance": 0.13333333333333333,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.04
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 12,
+      "context": "女士说：你好？",
+      "expected_response": "是我。",
+      "prediction": "你好！我是佩奇！  \n跳泥坑最棒了！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.09523809523809523,
+        "edit_distance": 0.09523809523809523,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.16666666666666666,
+        "combined_score": 0.045238095238095244
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 15,
+      "context": "猪爸爸说：我的办公室在顶楼。我们要坐电梯上去。",
+      "expected_response": "我能按按钮吗？",
+      "prediction": "电梯！我要坐电梯！  \n跳泥坑比电梯好玩多了！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.06666666666666667,
+        "edit_distance": 0.06666666666666667,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.02
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 17,
+      "context": "猪爸爸说：我觉得轮到乔治了。按上面的按钮，乔治。",
+      "expected_response": "哦！",
+      "prediction": "电梯上去了！  \n乔治你真棒！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.11764705882352941,
+        "edit_distance": 0.11764705882352941,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.1,
+        "combined_score": 0.045294117647058825
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 19,
+      "context": "佩奇&乔治说：哦！\n旁白：电梯正带着佩奇、乔治和猪爸爸升到顶楼。",
+      "expected_response": "哇！",
+      "prediction": "电梯好快！  \n我要跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.125,
+        "edit_distance": 0.125,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.1111111111111111,
+        "combined_score": 0.04861111111111112
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 30,
+      "context": "兔子先生说：当然可以。我的工作全是关于数字的。我拿一张非常重要的纸。我拿一个橡皮图章，然后在纸上盖章。",
+      "expected_response": "哇！",
+      "prediction": "数字好有趣！  \n我要盖章！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.125,
+        "edit_distance": 0.125,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.1111111111111111,
+        "combined_score": 0.04861111111111112
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 32,
+      "context": "佩奇&乔治说：哇！\n旁白：兔子先生的工作真棒。",
+      "expected_response": "我能盖章吗？",
+      "prediction": "兔子先生真厉害！  \n我要盖章！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.2727272727272727,
+        "edit_distance": 0.2727272727272727,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.08333333333333333,
+        "combined_score": 0.09015151515151515
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 34,
+      "context": "兔子先生说：当然可以。我给你找些纸。",
+      "expected_response": "这里有些纸。",
+      "prediction": "纸！我要盖章！  \n数字好有趣！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.09090909090909091,
+        "edit_distance": 0.09090909090909091,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.08333333333333333,
+        "combined_score": 0.035606060606060606
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 37,
+      "context": "兔子先生说：也许我们应该用一些空白纸。给你。\n旁白：佩奇喜欢用橡皮图章盖章。",
+      "expected_response": "我喜欢做兔子先生的工作。",
+      "prediction": "盖章！盖章！  \n跳泥坑比盖章好玩！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 40,
+      "context": "猫太太说：你好，佩奇和乔治。",
+      "expected_response": "你好。",
+      "prediction": "你好，猫太太！  \n我要跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.21052631578947367,
+        "edit_distance": 0.21052631578947367,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.09090909090909091,
+        "combined_score": 0.0722488038277512
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 42,
+      "context": "猫太太说：我的工作是在电脑上画图形。",
+      "expected_response": "哦！",
+      "prediction": "电脑好神奇！  \n我要画图形！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.11764705882352941,
+        "edit_distance": 0.11764705882352941,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.1,
+        "combined_score": 0.045294117647058825
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 44,
+      "context": "猫太太说：然后我把图形打印出来。",
+      "expected_response": "哇！",
+      "prediction": "打印！好神奇！  \n我要画图形！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.1111111111111111,
+        "edit_distance": 0.1111111111111111,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.1,
+        "combined_score": 0.043333333333333335
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 46,
+      "context": "猫太太说：这是另一份。",
+      "expected_response": "谢谢。",
+      "prediction": "图形好漂亮！  \n我要画！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 48,
+      "context": "佩奇说：谢谢。\n旁白：猫太太的工作真好！",
+      "expected_response": "我能试试吗？",
+      "prediction": "猫太太真棒！  \n我要画图形！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.09523809523809523,
+        "edit_distance": 0.09523809523809523,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.028571428571428574
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 50,
+      "context": "猪爸爸说：也许现在轮到乔治了。",
+      "expected_response": "没错，乔治。轮到你做点工作了。",
+      "prediction": "乔治你来！  \n我要跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.20689655172413793,
+        "edit_distance": 0.20689655172413793,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.125,
+        "combined_score": 0.07456896551724138
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 52,
+      "context": "佩奇说：没错，乔治。轮到你做点工作了。\n旁白：乔治在画蓝色三角形。",
+      "expected_response": "现在你把它们打印出来。",
+      "prediction": "蓝色三角形！  \n乔治真棒！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 53,
+      "context": "佩奇说：现在你把它们打印出来。",
+      "expected_response": "我喜欢做猫太太的工作。",
+      "prediction": "打印！乔治加油！  \n蓝色三角形真漂亮！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 55,
+      "context": "猪爸爸说：你想看看我的桌子吗？",
+      "expected_response": "想看！",
+      "prediction": "爸爸的桌子真酷！  \n我要跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.1,
+        "edit_distance": 0.1,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.08333333333333333,
+        "combined_score": 0.03833333333333334
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 59,
+      "context": "猪爸爸说：我的工作相当复杂。我处理大数字，传输它们并计算它们的承重切线。\n旁白：猪爸爸的工作听起来很重要。",
+      "expected_response": "你用橡皮图章吗？",
+      "prediction": "大数字好厉害！  \n爸爸最棒了！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 61,
+      "context": "猪爸爸说：不用。",
+      "expected_response": "你用电脑吗？",
+      "prediction": "爸爸的工作好厉害！  \n我要跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 63,
+      "context": "猪爸爸说：不用。但我用彩色笔。",
+      "expected_response": "爸爸，我们可以用你的彩色笔画画吗？",
+      "prediction": "彩色笔真漂亮！  \n我要画画！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.3125,
+        "edit_distance": 0.3125,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.11764705882352941,
+        "combined_score": 0.10551470588235294
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 66,
+      "context": "猪爸爸说：好主意。\n旁白：佩奇和乔治喜欢用彩色笔画画。",
+      "expected_response": "我在画房子。乔治在画恐龙。乔治总是画恐龙。",
+      "prediction": "画画！彩色笔真棒！  \n跳泥坑最有趣！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.1,
+        "edit_distance": 0.1,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.030000000000000006
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 72,
+      "context": "猫太太说：多凶猛的恐龙啊。",
+      "expected_response": "乔治和我一直在做爸爸的工作。",
+      "prediction": "恐龙好厉害！  \n我要画恐龙！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.06896551724137931,
+        "edit_distance": 0.06896551724137931,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.020689655172413793
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "22. 猪爸爸的办公室",
+      "dialogue_index": 74,
+      "context": "猪爸爸说：他们做得很好。",
+      "expected_response": "我喜欢做兔子先生的工作，也喜欢做猫太太的工作。但我最喜欢做爸爸的工作。",
+      "prediction": "乔治真棒！  \n我最喜欢跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.1568627450980392,
+        "edit_distance": 0.1568627450980392,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.13636363636363635,
+        "combined_score": 0.0606951871657754
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "24. 乔治感冒了",
+      "dialogue_index": 13,
+      "context": "猪妈妈说：那就戴上帽子。",
+      "expected_response": "来吧，乔治。",
+      "prediction": "好的！我戴上我的红色帽子！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "24. 乔治感冒了",
+      "dialogue_index": 27,
+      "context": "猪爸爸说：谢谢你，棕熊医生。再见。",
+      "expected_response": "乔治会被送到医院吃药吗？",
+      "prediction": "再见，猪爸爸！我最爱你！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "24. 乔治感冒了",
+      "dialogue_index": 29,
+      "context": "猪爸爸说：不，乔治只需要上床睡觉。",
+      "expected_response": "哦，所以乔治不是真的病得很重。",
+      "prediction": "乔治，该睡觉啦！晚安！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.15384615384615385,
+        "edit_distance": 0.15384615384615385,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.14285714285714285,
+        "combined_score": 0.06043956043956044
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "24. 乔治感冒了",
+      "dialogue_index": 31,
+      "context": "乔治说：阿嚏！",
+      "expected_response": "呃！真恶心！",
+      "prediction": "乔治，你感冒了吗？我给你拿药！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.09523809523809523,
+        "edit_distance": 0.09523809523809523,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.07142857142857142,
+        "combined_score": 0.03571428571428572
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "24. 乔治感冒了",
+      "dialogue_index": 45,
+      "context": "棕熊医生说：嗯，佩奇，你又大又勇敢。你能教乔治怎么说啊……",
+      "expected_response": "当然可以。啊……",
+      "prediction": "乔治，阿嚏！我最勇敢！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "24. 乔治感冒了",
+      "dialogue_index": 48,
+      "context": "棕熊医生说：嗯，乔治感冒了。",
+      "expected_response": "乔治需要吃药吗？",
+      "prediction": "乔治，多喝热水！我陪你！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.2,
+        "edit_distance": 0.2,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.07692307692307693,
+        "combined_score": 0.0676923076923077
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "24. 乔治感冒了",
+      "dialogue_index": 53,
+      "context": "棕熊医生说：不客气。再见！\n旁白：乔治一整天都在床上。现在是佩奇的就寝时间。",
+      "expected_response": "乔治，你好些了吗？",
+      "prediction": "晚安，乔治！做个好梦！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.3,
+        "edit_distance": 0.3,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.16666666666666666,
+        "combined_score": 0.10666666666666666
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "24. 乔治感冒了",
+      "dialogue_index": 57,
+      "context": "乔治说：阿嚏！",
+      "expected_response": "乔治，请不要打喷嚏那么大声。呃！这不可能。",
+      "prediction": "乔治，别怕！我在这里！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.3125,
+        "edit_distance": 0.3125,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.17647058823529413,
+        "combined_score": 0.11139705882352942
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "24. 乔治感冒了",
+      "dialogue_index": 61,
+      "context": "猪爸爸说：晚安，我的小猪们。",
+      "expected_response": "啊，安静真好。",
+      "prediction": "晚安，爸爸！我爱你！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.11764705882352941,
+        "edit_distance": 0.11764705882352941,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.1,
+        "combined_score": 0.045294117647058825
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "06. 乔治的朋友",
+      "dialogue_index": 2,
+      "context": "猪爸爸说：你准备好了吗？",
+      "expected_response": "准备好了！",
+      "prediction": "太棒了！我准备好了！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.6666666666666666,
+        "edit_distance": 0.6666666666666666,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.6666666666666666,
+        "combined_score": 0.26666666666666666
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "06. 乔治的朋友",
+      "dialogue_index": 4,
+      "context": "猪爸爸说：那我们走吧！",
+      "expected_response": "呼！",
+      "prediction": "万岁！跳泥坑去啦！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.18181818181818182,
+        "edit_distance": 0.18181818181818182,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.14285714285714285,
+        "combined_score": 0.06883116883116884
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "06. 乔治的朋友",
+      "dialogue_index": 5,
+      "context": "佩奇&苏西&丹尼说：呼！",
+      "expected_response": "快点快点！",
+      "prediction": "跳泥坑！太好玩了！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.14285714285714285,
+        "edit_distance": 0.14285714285714285,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.14285714285714285,
+        "combined_score": 0.05714285714285714
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "06. 乔治的朋友",
+      "dialogue_index": 9,
+      "context": "丽贝卡说：大家好！",
+      "expected_response": "你好！",
+      "prediction": "你好，丽贝卡！跳泥坑吗？",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.4,
+        "edit_distance": 0.4,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.25,
+        "combined_score": 0.14500000000000002
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "06. 乔治的朋友",
+      "dialogue_index": 30,
+      "context": "兔妈妈说：“理查德，”现在让乔治抱着恐龙。\n旁白：“理查德也不喜欢分享。”这是怎么回事？",
+      "expected_response": "乔治和理查德总是哭当他们一起玩的时候。它们太小了，不能正常发挥。",
+      "prediction": "乔治，抱恐龙！我陪你玩！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.13636363636363635,
+        "edit_distance": 0.13636363636363635,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.08333333333333333,
+        "combined_score": 0.04924242424242424
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "06. 乔治的朋友",
+      "dialogue_index": 32,
+      "context": "兔妈妈说：你们两个大姑娘教他们一起玩？",
+      "expected_response": "我们当然可以帮助他们造沙堡。",
+      "prediction": "我们一起玩！乔治不哭！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.16,
+        "edit_distance": 0.16,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.07692307692307693,
+        "combined_score": 0.055692307692307694
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "06. 乔治的朋友",
+      "dialogue_index": 35,
+      "context": "猪爸爸说：好主意！我们去沙坑吧！\n旁白：乔治和理查德喜欢沙坑！",
+      "expected_response": "“乔治，理查德，今天我们是”去造沙堡。",
+      "prediction": "沙坑！挖洞！太好玩了！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.06666666666666667,
+        "edit_distance": 0.06666666666666667,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.02
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "06. 乔治的朋友",
+      "dialogue_index": 37,
+      "context": "丽贝卡说：“首先，我们把桶装满沙子。”我们把桶翻过来轻轻敲一下。",
+      "expected_response": "现在我们把桶抬起来。",
+      "prediction": "装满沙子！翻桶！挖沙坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.09090909090909091,
+        "edit_distance": 0.09090909090909091,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.027272727272727275
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "06. 乔治的朋友",
+      "dialogue_index": 43,
+      "context": "猪爸爸说：“你看，一起玩很有趣。”哦，天哪！这场比赛进行得不太顺利。",
+      "expected_response": "是你哥哥的错。他打碎了乔治的沙堡。",
+      "prediction": "比赛不好玩！我们玩跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "06. 乔治的朋友",
+      "dialogue_index": 47,
+      "context": "丽贝卡说：那是的。我们是大姑娘。",
+      "expected_response": "乔治和理查德太小了一起好好玩。",
+      "prediction": "大姑娘！跳泥坑！太棒了！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.14814814814814814,
+        "edit_distance": 0.14814814814814814,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.044444444444444446
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "06. 乔治的朋友",
+      "dialogue_index": 55,
+      "context": "理查德说：跷跷板。",
+      "expected_response": "看！乔治和理查德在一起玩！",
+      "prediction": "跷跷板！我和你玩！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.36363636363636365,
+        "edit_distance": 0.36363636363636365,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.2727272727272727,
+        "combined_score": 0.13636363636363638
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "09. 时间胶囊",
+      "dialogue_index": 2,
+      "context": "瞪羚夫人说：“今天，我们要”做一个时间胶囊。",
+      "expected_response": "什么。是时间胶囊吗？",
+      "prediction": "太棒了！我们要做什么呀？  \n我想把我的跳泥坑鞋子放进去！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.15384615384615385,
+        "edit_distance": 0.15384615384615385,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.08695652173913043,
+        "combined_score": 0.0548494983277592
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "09. 时间胶囊",
+      "dialogue_index": 4,
+      "context": "瞪羚夫人说：时间胶囊可以向未来的人们展示我们的生活。",
+      "expected_response": "怎么用？",
+      "prediction": "哇！那我要放我的泥坑跳鞋！  \n还有我和乔治的画！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "09. 时间胶囊",
+      "dialogue_index": 9,
+      "context": "瞪羚夫人说：“现在，”我们应该放些什么东西进去？",
+      "expected_response": "一个漫画！",
+      "prediction": "我的玩具小猪！  \n还有我的跳泥坑照片！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.08,
+        "edit_distance": 0.08,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.07692307692307693,
+        "combined_score": 0.03169230769230769
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "09. 时间胶囊",
+      "dialogue_index": 18,
+      "context": "瞪羚夫人说：这些都是很好的东西展示我们的日常生活。",
+      "expected_response": "“瞪羚夫人，”未来会是什么样子？",
+      "prediction": "我要放我的泥坑跳鞋！  \n还有我和乔治的画！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "09. 时间胶囊",
+      "dialogue_index": 20,
+      "context": "瞪羚夫人说：你觉得会怎么样？",
+      "expected_response": "我想在未来我将住在月球上。我所有的朋友都会来看我的。",
+      "prediction": "他们会看到我跳泥坑！  \n太棒了！万岁！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.043478260869565216,
+        "edit_distance": 0.043478260869565216,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.08333333333333333,
+        "combined_score": 0.021376811594202898
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "09. 时间胶囊",
+      "dialogue_index": 22,
+      "context": "丹尼说：我将发射一枚太空火箭。",
+      "expected_response": "你好！",
+      "prediction": "哇！我要跳泥坑！  \n太好玩了！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.21052631578947367,
+        "edit_distance": 0.21052631578947367,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.09090909090909091,
+        "combined_score": 0.0722488038277512
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "09. 时间胶囊",
+      "dialogue_index": 24,
+      "context": "瞪羚夫人说：现在，我们将录制一条消息为未来的人们。向未来问好。",
+      "expected_response": "向未来问好。你们现在可能都住在月球上。",
+      "prediction": "你好！我是佩奇！  \n我喜欢跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.05405405405405406,
+        "edit_distance": 0.05405405405405406,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.016216216216216217
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "09. 时间胶囊",
+      "dialogue_index": 29,
+      "context": "瞪羚夫人说：精彩的！\n旁白：快到家了所有的父母都到了。",
+      "expected_response": "“妈妈，爸爸。”我们做了一个时间胶囊。",
+      "prediction": "再见！我们回家啦！  \n跳泥坑！跳泥坑！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.10256410256410256,
+        "edit_distance": 0.10256410256410256,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.05,
+        "combined_score": 0.035769230769230775
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "09. 时间胶囊",
+      "dialogue_index": 33,
+      "context": "猪爸爸说：在那里！",
+      "expected_response": "我们现在能把它挖出来吗？",
+      "prediction": "看！我的跳泥坑鞋子！  \n太棒了！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.06896551724137931,
+        "edit_distance": 0.06896551724137931,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.020689655172413793
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "09. 时间胶囊",
+      "dialogue_index": 35,
+      "context": "瞪羚夫人说：它将在地面上保留多年。",
+      "expected_response": "“哦，但我等不及了。”“佩奇，你跟你爸爸一样”他小时候。",
+      "prediction": "太棒了！我的泥坑跳鞋会一直留着！  \n万岁！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.08,
+        "edit_distance": 0.08,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.037037037037037035,
+        "combined_score": 0.027703703703703703
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "09. 时间胶囊",
+      "dialogue_index": 36,
+      "context": "佩奇说：“哦，但我等不及了。”“佩奇，你跟你爸爸一样”他小时候。",
+      "expected_response": "是吗？",
+      "prediction": "我最喜欢跳泥坑！  \n和爸爸一样！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "09. 时间胶囊",
+      "dialogue_index": 38,
+      "context": "瞪羚夫人说：“是的，我记得”当我是他的老师的时候。",
+      "expected_response": "你教我爸爸了吗？",
+      "prediction": "哇！你教过爸爸吗？  \n太酷了！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.5,
+        "edit_distance": 0.5,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.38461538461538464,
+        "combined_score": 0.18846153846153849
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "09. 时间胶囊",
+      "dialogue_index": 42,
+      "context": "猪爸爸说：“是的，我们做到了。”我们把它埋在一棵小树旁边。",
+      "expected_response": "我们能把它挖出来吗？",
+      "prediction": "埋在树旁边！  \n等我长大再挖出来！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.2857142857142857,
+        "edit_distance": 0.2857142857142857,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.05555555555555555,
+        "combined_score": 0.09126984126984126
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "09. 时间胶囊",
+      "dialogue_index": 54,
+      "context": "孩子们说：哦。",
+      "expected_response": "戴眼镜的小猪是谁？",
+      "prediction": "我们来跳泥坑吧！  \n太好玩了！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14B",
+      "scene": "09. 时间胶囊",
+      "dialogue_index": 57,
+      "context": "小猪爸爸说：向未来问好！你的声音真尖！你现在可能住在月球上。",
+      "expected_response": "傻猪爸爸。",
+      "prediction": "我在月球上跳泥坑！  \n太棒了！",
+      "metrics": {
+        "exact_match": 0.0,
+        "fuzzy_match": 0.0,
+        "edit_distance": 0.0,
+        "sentence_bert": 0.0,
+        "keyword_similarity": 0.0,
+        "combined_score": 0.0
+      }
+    }
+  ]
+}

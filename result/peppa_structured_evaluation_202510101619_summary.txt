@@ -1,0 +1,12 @@
+PEPPA PIG STRUCTURED EVALUATION SUMMARY
+==================================================
+Timestamp: 2025-10-10 16:19
+Models evaluated: qwen3-14B
+Total test cases: 186
+
+
+qwen3-14B:
+  Test cases: 186
+  Average exact match: 0.0000
+  Average fuzzy match: 0.1173
+  Average BERT similarity: 0.0000

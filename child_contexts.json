@@ -1,0 +1,154 @@
+{
+  "contexts": [
+    {
+      "id": "fear_dark",
+      "age_range": [4, 8],
+      "keywords": ["害怕", "黑", "晚上", "一个人睡", "打雷", "闪电", "怪物", "鬼", "不敢睡"],
+      "instruction": "小朋友害怕晚上一个人睡觉"
+    },
+    {
+      "id": "failure_sad",
+      "age_range": [6, 12],
+      "keywords": ["没考好", "输了", "失败", "做不好", "不会", "太难了", "不想试了", "放弃"],
+      "instruction": "小朋友因为没考好/输了比赛很难过"
+    },
+    {
+      "id": "misunderstood",
+      "age_range": [5, 12],
+      "keywords": ["不信我", "冤枉", "不是我", "他们说谎", "没人信", "委屈", "误解"],
+      "instruction": "小朋友觉得朋友不相信他，很委屈"
+    },
+    {
+      "id": "angry_tantrum",
+      "age_range": [4, 10],
+      "keywords": ["生气", "气死了", "抢我", "弄坏", "讨厌", "烦死了", "想哭", "发脾气"],
+      "instruction": "小朋友因为玩具被抢，气得想哭"
+    },
+    {
+      "id": "lonely",
+      "age_range": [4, 9],
+      "keywords": ["没朋友", "孤单", "没人玩", "一个人", "不理我", "被忽略"],
+      "instruction": "小朋友觉得自己没有朋友，有点难过"
+    },
+    {
+      "id": "shy_make_friends",
+      "age_range": [4, 8],
+      "keywords": ["不敢说话", "新同学", "想玩", "害羞", "不知道怎么开口", "怕被拒绝"],
+      "instruction": "小朋友想和新同学玩，但不敢开口"
+    },
+    {
+      "id": "friend_fight",
+      "age_range": [5, 12],
+      "keywords": ["吵架", "不和你玩", "绝交", "生气了", "闹别扭", "不理我", "最好的朋友"],
+      "instruction": "小朋友和最好的朋友闹别扭了"
+    },
+    {
+      "id": "excluded",
+      "age_range": [6, 12],
+      "keywords": ["不带我玩", "小团体", "排斥", "不要我", "他们自己玩", "被赶出来"],
+      "instruction": "小朋友被小团体拒绝，感到伤心"
+    },
+    {
+      "id": "reluctant_share",
+      "age_range": [4, 7],
+      "keywords": ["我的", "不给", "舍不得", "别碰", "这是我的", "不想分享"],
+      "instruction": "小朋友舍不得把玩具给别人玩"
+    },
+    {
+      "id": "invite_play",
+      "age_range": [4, 10],
+      "keywords": ["一起玩", "来玩", "教你", "新游戏", "好玩", "试试看"],
+      "instruction": "小朋友想请大家玩他新学的游戏"
+    },
+    {
+      "id": "regret_yelling",
+      "age_range": [5, 12],
+      "keywords": ["对妈妈发脾气", "骂爸爸", "后悔", "对不起爸妈", "顶嘴", "惹爸妈生气"],
+      "instruction": "小朋友刚对妈妈发脾气，现在很内疚"
+    },
+    {
+      "id": "homework_resist",
+      "age_range": [6, 12],
+      "keywords": ["作业太多", "不想写", "太累了", "讨厌作业", "练琴烦", "没时间玩"],
+      "instruction": "小朋友觉得作业太多，不想写"
+    },
+    {
+      "id": "sibling_conflict",
+      "age_range": [4, 10],
+      "keywords": ["弟弟弄坏", "妹妹抢", "烦弟弟", "他乱动", "我的东西", "小宝宝"],
+      "instruction": "小朋友的玩具被弟弟弄坏了"
+    },
+    {
+      "id": "want_pet",
+      "age_range": [6, 12],
+      "keywords": ["想要小狗", "养猫", "宠物", "求爸妈", "答应我", "别人有"],
+      "instruction": "小朋友特别想要一只小狗"
+    },
+    {
+      "id": "family_change",
+      "age_range": [4, 9],
+      "keywords": ["搬家", "新宝宝", "离婚", "转学", "变化", "不习惯", "以前不是这样"],
+      "instruction": "小朋友对家里新变化感到不安"
+    },
+    {
+      "id": "stage_fright",
+      "age_range": [5, 12],
+      "keywords": ["上台", "表演", "讲故事", "发言", "紧张", "手抖", "忘词", "不敢"],
+      "instruction": "小朋友明天要上台讲故事，很紧张"
+    },
+    {
+      "id": "learning_frustration",
+      "age_range": [5, 10],
+      "keywords": ["学不会", "摔了", "骑车", "游泳", "滑倒", "又失败", "不想学"],
+      "instruction": "小朋友学自行车摔了好几次，想放弃"
+    },
+    {
+      "id": "fear_medical",
+      "age_range": [4, 8],
+      "keywords": ["打针", "看医生", "医院", "吃药", "害怕疼", "疫苗", "抽血"],
+      "instruction": "小朋友明天要打疫苗，特别害怕"
+    },
+    {
+      "id": "low_self_esteem",
+      "age_range": [7, 12],
+      "keywords": ["不如别人", "笨", "丑", "没人喜欢", "我不行", "他们更好", "没用"],
+      "instruction": "小朋友觉得自己不如别人聪明/漂亮"
+    },
+    {
+      "id": "hesitant_try_new",
+      "age_range": [4, 12],
+      "keywords": ["想试试", "但怕", "不敢开始", "万一搞砸", "第一次", "新东西"],
+      "instruction": "小朋友想学画画，但怕画不好"
+    },
+    {
+      "id": "curious_science",
+      "age_range": [4, 12],
+      "keywords": ["为什么", "天为什么蓝", "星星", "恐龙", "火山", "彩虹", "科学", "怎么来的"],
+      "instruction": "小朋友对自然现象充满好奇"
+    },
+    {
+      "id": "creative_play",
+      "age_range": [4, 10],
+      "keywords": ["编故事", "假装", "角色扮演", "做手工", "画画", "搭积木", "创作"],
+      "instruction": "小朋友想和你一起编一个冒险故事"
+    },
+    {
+      "id": "animal_lover",
+      "age_range": [5, 12],
+      "keywords": ["恐龙", "太空", "鲨鱼", "老虎", "动物", "宇宙", "星球", "化石"],
+      "instruction": "小朋友最近超爱研究恐龙！"
+    },
+    {
+      "id": "stuck_on_homework",
+      "age_range": [6, 12],
+      "keywords": ["不会做", "卡住了", "这题难", "看不懂", "求助", "教我", "数学题"],
+      "instruction": "小朋友被一道数学题难住了"
+    },
+    {
+      "id": "future_dreams",
+      "age_range": [7, 12],
+      "keywords": ["长大想", "以后当", "梦想", "科学家", "画家", "宇航员", "做什么工作"],
+      "instruction": "小朋友在想以后要当科学家还是画家"
+    }
+  ]
+}

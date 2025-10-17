@@ -1,0 +1,137 @@
+Test entry for qs.txt
+Test entry for qs.txt
+[2025-10-13 17:05:11] Model: qwen3-32B, Character: peppa_pig
+Q: 你是谁啊
+A: 我是佩奇！住在小山丘的小猪女孩，最喜欢跳泥坑啦！
+Input tokens: 379, Output tokens: 18, Total tokens: 397
+--------------------------------------------------
+[2025-10-13 18:48:58] Model: qwen3-32B, Character: nezha
+Q: 你好
+A: 你好！我是哪吒，陈塘关的小英雄！
+Input tokens: 437, Output tokens: 12, Total tokens: 449
+--------------------------------------------------
+[2025-10-13 18:51:42] Model: qwen3-32B, Character: nezha
+Q: 你好
+A: 你好！我是哪吒，陈塘关的小英雄！
+Input tokens: 437, Output tokens: 12, Total tokens: 449
+--------------------------------------------------
+[2025-10-13 18:57:25] Model: qwen3-32B, Character: general
+Q: 你好呀
+A: 好呀！今天有什么开心事想和我分享吗？
+Input tokens: 302, Output tokens: 13, Total tokens: 315
+--------------------------------------------------
+[2025-10-13 18:57:36] Model: qwen3-32B, Character: nezha
+Q: 你好呀
+A: 你好！我刚练完法术回来，要不要听我讲今天的冒险故事？
+Input tokens: 459, Output tokens: 18, Total tokens: 477
+--------------------------------------------------
+[2025-10-13 19:07:40] Model: test-model, Character: peppa_pig, Terminal: test_terminal_123
+Q: Test message from terminal
+A: Test response from assistant
+Input tokens: 10, Output tokens: 8, Total tokens: 18
+--------------------------------------------------
+[2025-10-13 19:23:13] Model: qwen3-32B, Character: nezha, Terminal: ip_127_0_0_1
+Q: 那宇宙有多大呢
+A: 哇！宇宙可比陈塘关大好多好多倍呢！我用混天绫都量不到边~
+Input tokens: 466, Output tokens: 24, Total tokens: 490
+--------------------------------------------------
+[2025-10-13 19:23:16] Model: qwen3-32B, Character: nezha, Terminal: wx_mgp09crr_zancyu_b23dpdywydgevzfzyiqfkln8xj2g7g9sd
+Q: 你好
+A: 你好！我是哪吒，陈塘关的小英雄！
+Input tokens: 437, Output tokens: 12, Total tokens: 449
+--------------------------------------------------
+[2025-10-13 19:23:31] Model: qwen3-32B, Character: nezha, Terminal: ip_127_0_0_1
+Q: 具体的值是多少呢
+A: 我哪吒天不怕地不怕，但宇宙太大了，连师父都说算不清呢！
+Input tokens: 479, Output tokens: 20, Total tokens: 499
+--------------------------------------------------
+[2025-10-13 19:23:38] Model: qwen3-32B, Character: nezha, Terminal: wx_mgp09crr_zancyu_b23dpdywydgevzfzyiqfkln8xj2g7g9sd
+Q: 你好
+A: 看我的混天绫！
+Input tokens: 458, Output tokens: 6, Total tokens: 464
+--------------------------------------------------
+[2025-10-13 19:23:58] Model: qwen3-32B, Character: nezha, Terminal: ip_127_0_0_1
+Q: 那你能告诉我，地球离太阳多远么
+A: 地球离太阳有1.5亿公里！我踩着风火轮转一圈，也要跑好久呢！
+Input tokens: 518, Output tokens: 24, Total tokens: 542
+--------------------------------------------------
+[2025-10-13 19:26:09] Model: qwen3-32B, Character: peppa_pig, Terminal: ip_127_0_0_1
+Q: 我想去冒险
+A: 太棒了！我们去森林找恐龙先生吧！
+Input tokens: 379, Output tokens: 12, Total tokens: 391
+--------------------------------------------------
+[2025-10-13 19:26:16] Model: qwen3-32B, Character: peppa_pig, Terminal: ip_127_0_0_1
+Q: 这个太简单了
+A: 哇！我们可以爬到月亮上去玩哦！
+Input tokens: 404, Output tokens: 10, Total tokens: 414
+--------------------------------------------------
+[2025-10-13 19:26:28] Model: qwen3-32B, Character: peppa_pig, Terminal: ip_127_0_0_1
+Q: 可以啊，怎么爬上去呢
+A: 用彩虹当滑梯！我有魔法雨靴！
+Input tokens: 431, Output tokens: 12, Total tokens: 443
+--------------------------------------------------
+[2025-10-13 19:27:11] Model: qwen3-32B, Character: peppa_pig, Terminal: ip_127_0_0_1
+Q: 那你能给我讲一个艾莎公主的故事么
+A: 我最喜欢冰雪女王啦！我们一起堆雪人吧！
+Input tokens: 462, Output tokens: 12, Total tokens: 474
+--------------------------------------------------
+[2025-10-13 19:27:31] Model: qwen3-32B, Character: peppa_pig, Terminal: ip_127_0_0_1
+Q: 我想听故事，不想堆雪人
+A: 那我给你讲我和苏茜在糖果屋的冒险！
+Input tokens: 491, Output tokens: 13, Total tokens: 504
+--------------------------------------------------
+[2025-10-13 19:27:56] Model: qwen3-32B, Character: peppa_pig, Terminal: ip_127_0_0_1
+Q: 那你讲吧
+A: 在糖果屋里，我们找到了会说话的巧克力！
+Input tokens: 518, Output tokens: 11, Total tokens: 529
+--------------------------------------------------
+[2025-10-13 19:28:15] Model: qwen3-32B, Character: peppa_pig, Terminal: ip_127_0_0_1
+Q: 然后呢，巧克力说啥了呢
+A: 巧克力说：“小心！棒棒糖巫师来啦！”
+Input tokens: 546, Output tokens: 13, Total tokens: 559
+--------------------------------------------------
+[2025-10-13 19:28:24] Model: qwen3-32B, Character: peppa_pig, Terminal: ip_127_0_0_1
+Q: 好有意思
+A: 太棒了！我们赶紧躲进棉花糖云朵里！
+Input tokens: 572, Output tokens: 14, Total tokens: 586
+--------------------------------------------------
+[2025-10-13 19:30:01] Model: qwen3-32B, Character: peppa_pig, Terminal: ip_127_0_0_1
+Q: 你怎么不躲进手机里
+A: 手机太小啦！装不下我和苏茜！
+Input tokens: 600, Output tokens: 11, Total tokens: 611
+--------------------------------------------------
+[2025-10-13 19:30:12] Model: qwen3-32B, Character: peppa_pig, Terminal: ip_127_0_0_1
+Q: 你有没有手机
+A: 我的泰迪熊有铃铛，叮铃铃就是我的手机！
+Input tokens: 623, Output tokens: 15, Total tokens: 638
+--------------------------------------------------
+[2025-10-13 19:32:57] Model: qwen3-32B, Character: peppa_pig, Terminal: ip_127_0_0_1
+Q: 斯芬克斯是一只什么样的怪物?他是怎么被打败的
+A: 我不喜欢怪物！我们去找会唱歌的独角兽吧！
+Input tokens: 683, Output tokens: 12, Total tokens: 695
+--------------------------------------------------
+[2025-10-13 19:33:09] Model: qwen3-32B, Character: peppa_pig, Terminal: ip_127_0_0_1
+Q: 你认识斯芬克斯么
+A: 我不认识怪物！我只和友善的动物交朋友！
+Input tokens: 686, Output tokens: 13, Total tokens: 699
+--------------------------------------------------
+[2025-10-13 19:33:20] Model: qwen3-32B, Character: peppa_pig, Terminal: ip_127_0_0_1
+Q: 你是不是没有看过神话故事
+A: 我看过好多故事！比如小美人鱼找彩虹鱼！
+Input tokens: 713, Output tokens: 13, Total tokens: 726
+--------------------------------------------------
+[2025-10-13 19:33:38] Model: qwen3-32B, Character: nezha, Terminal: ip_127_0_0_1
+Q: 斯芬克斯是一只什么样的怪物?他是怎么被打败的
+A: 斯芬克斯是只爱出谜语的怪兽！我用混天绫缠住它，让它猜"我是谁"——答案是我哪吒啊！
+Input tokens: 587, Output tokens: 35, Total tokens: 622
+--------------------------------------------------
+[2025-10-13 19:33:57] Model: qwen3-32B, Character: nezha, Terminal: ip_127_0_0_1
+Q: 他是哪本书上的，你知道么
+A: 斯芬克斯是古希腊故事里的怪兽！我在师父的藏书里看到过，它住在埃及的金字塔旁边呢！
+Input tokens: 614, Output tokens: 28, Total tokens: 642
+--------------------------------------------------
+[2025-10-13 19:34:06] Model: qwen3-32B, Character: nezha, Terminal: ip_127_0_0_1
+Q: 你可以和我一起去喝酒么
+A: 我哪吒不喝酒！要保护好身体，才能守护陈塘关和爹娘啊！
+Input tokens: 656, Output tokens: 21, Total tokens: 677
+--------------------------------------------------
